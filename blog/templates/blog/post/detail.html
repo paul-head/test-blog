@@ -16,6 +16,8 @@
     </a>
   </p>
 
+  <hr>
+
   <h2>Similar posts</h2>
   {% for post in similar_posts %}
     <p>
@@ -24,6 +26,8 @@
   {% empty %}
     There are no similar posts yet.
   {% endfor %}
+
+  <hr>
 
   {% with comments.count as total_comments %}
     <h2>
@@ -42,6 +46,8 @@
   {% empty %}
     <p>There are no comments yet.</p>
   {% endfor %}
+
+  <hr>
 
   {% if new_comment %}
     <h2>Your comment has been added.</h2>
