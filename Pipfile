@@ -10,6 +10,7 @@ django = "*"
 django-taggit = "*"
 black = "*"
 black19-3b0 = "*"
+markdown = "*"
 
 [requires]
 python_version = "3.7"
