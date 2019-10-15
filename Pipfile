@@ -11,6 +11,7 @@ django-taggit = "*"
 black = "*"
 black19-3b0 = "*"
 markdown = "*"
+psycopg2 = "*"
 
 [requires]
 python_version = "3.7"
