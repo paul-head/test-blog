@@ -9,7 +9,7 @@ verify_ssl = true
 django = ">=2.2.8"
 django-taggit = "*"
 black = "*"
-black19-3b0 = "*"
+# black19-3b0 = "*"
 markdown = "*"
 psycopg2 = "*"
 
